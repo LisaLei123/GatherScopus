@@ -13,30 +13,41 @@ gather_scopus(
   year_less = NULL
 )
 }
-\arguments{
-\item{infile}{Path to the input file}
-}
-\value{
-A matrix of the infile
-}
 \description{
 This function gather data from Scopus database. You just need to input the journal names that you want to do a research with, and api key and token that you got from Scopus, then you can get the data.
+
 The data will include these columns:
-"AU" -- Authors??? Names;
+
+"AU" -- Authors Names;
+
 "TI" -- Document Title;
+
 "AID" -- Author's ID;
+
 "PY" -- Publication Year;
+
 "SO" -- Journal Name (or Source);
+
 "TC" -- Times Cited;
-"C1" -- Authors??? Affiliations;
+
+"C1" -- Affiliations;
+
 "AB" -- Abstract;
-"DE" -- Authors??? Keywords;
+
+"DE" -- Keywords;
+
 "ID" -- Keywords associated by SCOPUS or WoS database;
+
 "CR" -- Cited References;
-"RP" -- Corresponding Author???s Affiliation;
+
+"RP" -- Corresponding Author Affiliation;
+
 "JI" -- ISO Source Abbreviation;
+
 "DT" -- Document Type;
+
 "DB" -- Bibliographic Database;
+
 "UT" -- Unique Article Identifier;
 }
 \examples{
